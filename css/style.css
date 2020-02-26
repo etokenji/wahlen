@@ -1,0 +1,110 @@
+body
+{
+    position:relative;
+    font-family:"Hiragino Kaku Gothic ProN"
+    , "Meiryo"
+    , "sans-serif";
+}
+
+a
+{
+    text-decoration:none;
+}
+
+a:visited
+{
+    color:inherit;
+}
+
+.home-header
+{
+    display: inline-block;
+    margin-left: 75px;
+    color:black;
+}
+
+.container
+{
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:950px;
+    height: 75px;
+    z-index:2;  
+}
+
+.home-header-base
+{
+    position:absolute;
+    left:0px;
+    right:0px;
+}
+
+.photo-panel-wrap
+{
+    z-index: 0;
+    width:1024px;
+    height: 682px;
+    top:0px;
+    left:0px;
+    position: absolute;
+    opacity: 1;
+}
+
+.photo-panel
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    margin:0px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.photo-panel-1
+{
+    background-image:url('../image/top-1.jpg');
+    opacity: 1;
+    visibility: visible;
+}
+
+.photo-panel-2
+{
+    background-image:url('../image/top-2.jpg');
+    opacity: 0;
+    visibility:hidden;
+}
+
+.photo-panel-3
+{
+    background-image:url('../image/top-3.jpg');
+    opacity: 0;
+    visibility:hidden;
+}
+
+.photo-panel-4
+{
+    background-image:url('../image/top-4.jpg');
+    opacity: 0;
+    visibility:hidden;
+}
+
+.photo-panel-5
+{
+    background-image:url('../image/top-5.jpg');
+    opacity: 0;
+    visibility:hidden;
+}
+
+.photo-panel-base
+{
+    /* z-index: 1; */
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100vm;
+    height:100vm;
+    background-color: black;
+}
